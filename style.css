@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans",sans-serif;
+}
+
+/* header */
+header {
+    padding-bottom: 20px;
+}
+
+header img {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+header div {
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    vertical-align: 30%;
+}
+
+.more_margin {
+    margin-left: 380px;
+}
+
+.start {
+    background-color: blue;
+    color: white;
+    padding: 8px 15px;
+}
