@@ -32,7 +32,7 @@ header a {
 }
 
 .blue_button {
-    background-color: blue;
+    background-color: #0061ff;
     color: white;
     padding: 8px 15px;
     text-decoration: none;
@@ -43,6 +43,7 @@ header a {
     background-color: #b4d0e7;
     width: 100%;
     height: 80vh;
+    margin-bottom: 7%;
 }
 
 .container h1 {
@@ -53,7 +54,7 @@ header a {
     padding-left: 10%;
     padding-top: 6%;
     padding-right: 10%;
-    height: auto;
+    margin: auto;
 }
 
 .col_sx {
@@ -90,7 +91,85 @@ header a {
 }
 
 /* subscriprion */
+.padding_15 {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 .subscription {
     width: 100%;
     height: 80vh;
+    padding-top: 100px;
+}
+
+.subscription h1 {
+    font-size: 40px;
+}
+
+.subscription input {
+    margin-top: 50px;
+}
+
+.second_input {
+    margin-left: 20px;
+}
+
+/* validi per tutte le colonne */
+.col {
+    float: left;
+    width: 28%;
+    height: 800px;
+    margin-top: 3%;
+    border: solid 1px gray;
+}
+
+.margin_right_column {
+    margin-right: 7%;
+}
+
+.sub_type {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.font_15 {
+    font-size: 15px;
+}
+
+/* prima colonna */
+.sub_name {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.margin_column {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.col h3 {
+    font-size: 25px;
+}
+
+.margin_top_column {
+    margin-top: 30px;
+}
+
+.user {
+    margin-top: 50px;
+}
+
+.font_13 {
+    font-size: 13px;
+}
+
+.try_gratis {
+    background-color: #0061ff;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
