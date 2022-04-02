@@ -28,7 +28,7 @@ header a {
 }
 
 .more_margin {
-    margin-left: 27%;
+    margin-left: 30%;
 }
 
 .blue_button {
@@ -36,6 +36,7 @@ header a {
     color: white;
     padding: 8px 15px;
     text-decoration: none;
+    font-size: 15px;
 }
 
 /* jumbotron */
@@ -58,8 +59,11 @@ header a {
 }
 
 .col_sx {
-    float: left;
     width: 30%;
+}
+
+.float {
+    float: left;
 }
 
 .jumbotron_text {
@@ -80,7 +84,6 @@ header a {
 }
 
 .col_dx {
-    float: left;
     width: 70%;
 }
 
@@ -98,7 +101,7 @@ header a {
 
 .subscription {
     width: 100%;
-    height: 80vh;
+    height: 1500px;
     padding-top: 100px;
 }
 
@@ -115,16 +118,16 @@ header a {
 }
 
 /* validi per tutte le colonne */
-.col {
-    float: left;
+.sub_col {
     width: 28%;
     height: 1000px;
     margin-top: 3%;
+    margin-bottom: 60px;
     border: solid 1px gray;
 }
 
 .margin_right_column {
-    margin-right: 7%;
+    margin-right: 80px;
 }
 
 .sub_type {
@@ -148,7 +151,7 @@ header a {
     margin-bottom: 12px;
 }
 
-.col h3 {
+.sub_col h3 {
     font-size: 25px;
 }
 
@@ -170,6 +173,7 @@ header a {
 
 .try_gratis {
     background-color: #0061ff;
+    display: block;
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
@@ -200,8 +204,7 @@ header a {
 .last_sub {
     border: solid 1px gray;
     height: 200px;
-    width: 98%;
-    margin-top: 500px;
+    width: 100%;
     content: "";
     clear: both;
     display: table;
@@ -209,4 +212,65 @@ header a {
 
 .last_sub h3 {
     font-size: 25px;
+}
+
+/* trova un partner */
+.partner {
+    height: 650px;
+}
+
+.contact_img {
+    width: 55%;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.contact_img img {
+    width: 100%;
+}
+
+.contact_text {
+    width: 45%;
+    height: 200px;
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.contact_text p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.contact_text a {
+    padding: 10px 15px;
+    border: solid 1px gray;
+    text-decoration: none;
+    color: black;
+}
+
+/* operazioni */
+.operations {
+    width: 100%;
+    height: 1000px;
+}
+
+.operations h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.operations_col {
+    width: 300px;
+    height: 600px;
+    background-color: aquamarine;
+    margin-bottom: 80px;
+}
+
+.operations_margin_right {
+    margin-right: 50px;
+}
+
+.operations img {
+    width: 100%;
 }
